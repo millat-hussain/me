@@ -1,0 +1,107 @@
+@media screen and (max-width:768px){
+    .slider_wrapper .right img {
+        display: none;
+    }
+.menue_part{
+    display: none;
+}
+.contentcccccc{
+    display: block;
+    color: white;
+    font-size:25px;
+    cursor: pointer;
+   
+}
+.slider_wrapper .content_item .left h1 {
+    font-size: 4vw;
+    margin-bottom: 2rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+.cardfor_wrapper .cardfo span {
+    color: #333;
+    font-weight: 600;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: #000;
+}
+.slider_wrapper .content_item .left p {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 33px;
+    color: #fff;
+    padding: 0px 2vw;
+}
+section.slider_wrapper {
+  
+    padding-bottom: 2vh;
+}
+
+.welcome .welcome_wrapper {
+    flex-wrap: wrap;
+}
+.welcome .welcome_wrapper .welcome_left p {
+
+    font-size: 2.5vw;
+    padding: 0 2vw;
+}
+.welcome .welcome_wrapper .welcome_left h2 {
+
+    font-size: 3vw;
+    padding: 0 1vw;
+}
+.welcome .welcome_wrapper .welcome_left h1 {
+  
+    font-size: 6vw;
+    padding: 0 1vw;
+}
+.workon
+img {
+    margin-left: 9vw;
+}
+
+
+.service_wrapper {
+
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.how_do .howdo_work_wrapper {
+
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.contact .contact_wrappper {
+ 
+}
+
+.workonsec .workon_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    cursor: pointer;
+ 
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width:900px){
+    .service_wrapper {
+
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+.welcome .welcome_wrapper {
+    flex-wrap: wrap;
+}
+
+}
