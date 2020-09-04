@@ -1,0 +1,47 @@
+@media (max-width:1014px){
+
+}
+
+
+
+@media (max-width:768px){
+.skillbarsection {
+    
+    margin-top:7rem;
+}
+}
+
+@media (max-width:466px){
+
+    .wrapper2{
+        display:none;
+    }
+    .skillbarsection {
+    
+    margin-top:10rem;
+}
+
+
+}
+@media (max-width:420px){
+
+  
+    .skillbarsection {
+    
+    margin-top:15rem;
+}
+
+
+}
+@media (max-width:330px){
+
+  
+    .skillbarsection {
+    
+    margin-top:20rem;
+}
+
+
+}
+
+

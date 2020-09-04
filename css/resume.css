@@ -1,0 +1,49 @@
+img.manclsaa {
+    width: 22vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.aboutSection{
+    padding: 3rem 0;
+}
+span::after{
+    content: ':';
+     padding: 1rem;
+     font-weight: 600;
+   
+  
+}
+.mySelf_seciont{
+    height: 300px;
+}
+/* Progres */
+
+
+.skillbarsection{
+    height:750px;
+    padding: 1rem 0;
+}
+
+
+
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}

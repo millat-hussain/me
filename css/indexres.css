@@ -1,0 +1,111 @@
+@media screen and (max-width:991px){
+    .responciveimage{
+        display: none;
+    }
+    .card1ww{
+        display: none;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .whatdoido{
+        display: none;
+    }
+  
+    .contactform{
+        margin-top: 25rem;
+    }
+    .mapadd{
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+  
+
+    .mapadd {
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width:774px){
+        .mapadd {
+    display: none;
+}
+
+ .contactform {
+    margin-top: 67rem;
+}
+
+.workflow .row {
+    text-align: center;
+}
+
+
+
+
+
+  
+
+
+
+
+}
+@media screen and (max-width:576px){
+    .tastimonial {
+
+    display:none;
+   
+}
+
+
+}
+  
+
+
+
+
+
+
+@media screen and (max-width:425px){
+  
+
+    .mapadd {
+    display: none;
+}
+ .contactform {
+    margin-top: 67rem;
+}
+
+.tastimonial {
+
+    display:none;
+   
+}
+
+
+
+}
+
+
+@media screen and (max-width:320px){
+  
+
+ .contactform {
+    margin-top: 73rem;
+}
+
+.tastimonial {
+
+    display:none;
+   
+}
+
+
+}
+
+

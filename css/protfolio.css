@@ -1,0 +1,432 @@
+
+.containerppp{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cardpp{
+    position: relative;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition:.3s ease-in-out;
+}
+.cardpp:hover{
+    transform:scale(1.1);
+}
+
+.cardpp:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    left: 0;
+      background-image: linear-gradient(to top, #21a6ad, #9cab14e3);
+    clip-path: circle(400px at 50% -48.5%);
+}
+
+.headerpp{
+    position: relative;
+    height: 265px;
+}
+
+.mailpp{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: .8;
+    transition: .3s;
+    z-index: 3;
+    text-decoration: none;
+}
+
+.mailpp:hover{
+    opacity: 1;
+}
+
+.hamburger-menupp{
+    position: absolute;
+    width: 21px;
+    height: 16px;
+    top: 1.4rem;
+    left: 1.9rem;
+    z-index: 3;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .8;
+}
+
+.hamburger-menupp:hover{
+    opacity: 1;pp
+}
+
+.hamburger-menupp .centerpp{
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+.hamburger-menupp::before, .hamburger-menupp::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+
+.hamburger-menupp:before{
+    top: 0;
+}
+
+.hamburger-menupp:after{
+    bottom: 0;
+}
+
+.mainpp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpp .imagepp{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: url('img/profile.jpg') no-repeat center / cover;
+    border: 4px solid #00d8fe;
+    margin-bottom: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imagepp .hoverpp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(79, 172, 254, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+}
+
+.imagepp:hover .hoverpp{
+    opacity: 1;
+}
+
+.hoverpp.activepp{
+    opacity: 1;
+}
+
+.namepp{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.sub-namepp{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.2rem;
+    opacity: .8;
+    color: #fff;
+}
+
+.contentpp{
+    display: flex;
+    padding: 1.7rem 2.5rem 2.6rem 2.5rem;
+}
+
+.rightpp{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 2.1rem;
+}
+
+.numberpp{
+    font-size: 2.1rem;
+    font-weight: 200;
+    color: #333;
+    line-height: 1.2;
+}
+
+.number-titlepp{
+    font-size: .55rem;
+    color: #666;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.titlepp{
+    position: relative;
+    color: #555;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0 0 3px 0;
+    margin-bottom: .9rem;
+    display: inline-block;
+}
+
+.titlepp:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background-color: #555;
+    bottom: 0;
+    left: 0;
+}
+
+.textpp{
+    color: #666;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.icons-containerpp{
+    padding: 1rem 0;
+}
+
+.iconpp{
+    color: #c4c4c4;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 8px;
+    transition: .3s;
+}
+
+.iconpp:hover{
+    color: #4facfe;
+}
+
+.buttons-wrappp{
+    display: flex;
+    margin-top: 5px;
+}
+
+.follow-wrappp, .share-wrappp{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.follow-wrappp:hover, .share-wrappp:hover{
+    flex: 5pp;
+}
+
+.followpp{
+    padding: 9.6px 0;
+    width: 100%;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 18.1px;
+    margin-right: 3px;
+}
+
+.sharepp{
+    padding: 7.6px 0;
+    width: 100%;
+    border: 2px solid #4facfe;
+    color: #4facfe;
+    text-decoration: none;
+    text-align: center;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 3px;
+    border-radius: 18.1px;
+}
+
+.modalpp{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+}
+
+.modalpp img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.3);
+    max-width: 100%;
+    max-height: 100%;
+    transition: .5s;
+}
+
+.modalpp.showpp{
+    opacity: 1;
+    z-index: 99;
+}
+
+.modalpp.showpp img{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.closepp{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.closepp:hover{
+    opacity: .5;
+}
+
+.closepp:before, .closepp:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 1.5px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+}
+
+.closepp:before{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.closepp:after{
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+@media (max-width: 410px){
+    .contentpp{
+        flex-direction: column;
+    }
+
+    .rightpp{
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 370px){
+    .headerpp{
+        height: 230px;
+    }
+
+    .cardpp:before{
+        clip-path: circle(400px at 50% -74.5%);
+        height: 230px;
+    }
+
+    .hamburger-menupp{
+        width: 16px;
+        height: 12px;
+        top: 1.1rem;
+        left: 1.5rem;
+    }
+
+    .mailpp{
+        font-size: 1.1rem;
+        top: .75rem;
+        right: 1.5rem;
+    }
+
+    .mainpp .imagepp{
+        width: 90px;
+        height: 90px;
+        border-width: 3px;
+    }pp
+
+    .namepp, .sub-namepp{
+        font-size: 1rem;
+    }
+
+    .contentpp{
+        padding: 1.2rem 1.8rem 1.8rem 1.8rem;
+    }
+
+    .numberpp{
+        font-size: 1.8rem;
+    }
+
+    .number-titlepp{
+        font-size: .4rem;
+    }
+
+    .rightpp{
+        padding-top: 1rem;
+    }
+
+    .titlepp{
+        font-size: .9rem;
+        margin-bottom: .5rem;
+    }
+
+    .textpp{
+        font-size: .8rem;
+    }
+
+    .icons-containerpp{
+        padding: .5rem 0;
+    }
+
+    .iconpp{
+        font-size: 1.1rem;
+    }
+
+    .followpp{
+        padding: 7.6px 0;
+        border-radius: 14.6px;
+        font-size: .6rem;
+    }
+
+    .sharepp{
+        padding: 5.6px 0;
+        border-radius: 14.6px;
+        font-size: .6rem;
+    }
+}
