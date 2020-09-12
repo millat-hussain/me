@@ -163,6 +163,9 @@ textarea.input {
   pointer-events: none;
   z-index: 500;
 }
+.text-center.text-md-left {
+    padding-bottom:3rem;
+}
 
 .input-container span:before,
 .input-container span:after {

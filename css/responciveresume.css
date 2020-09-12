@@ -1,14 +1,17 @@
-@media (max-width:1014px){
+@media screen and(max-width:966px) {
 
 }
-
 
 
 @media (max-width:768px){
 .skillbarsection {
-    
+
     margin-top:7rem;
 }
+.happyclind.bg-info {
+  margin-top: 22rem;
+}
+
 }
 
 @media (max-width:466px){
@@ -17,7 +20,7 @@
         display:none;
     }
     .skillbarsection {
-    
+
     margin-top:10rem;
 }
 
@@ -25,23 +28,20 @@
 }
 @media (max-width:420px){
 
-  
+
     .skillbarsection {
-    
+
     margin-top:15rem;
 }
-
 
 }
 @media (max-width:330px){
 
-  
+
     .skillbarsection {
-    
+
     margin-top:20rem;
 }
 
 
 }
-
-

@@ -1,3 +1,22 @@
+
+body{
+  background:url(../image/osit.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position:relative;
+}
+body::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 1, 0.75);
+  z-index: -20;
+  position: absolute;
+  
+}
+
+
 img.manclsaa {
     width: 22vw;
     margin-top: 1rem;
@@ -6,13 +25,7 @@ img.manclsaa {
 .aboutSection{
     padding: 3rem 0;
 }
-span::after{
-    content: ':';
-     padding: 1rem;
-     font-weight: 600;
-   
-  
-}
+
 .mySelf_seciont{
     height: 300px;
 }
@@ -47,3 +60,63 @@ span::after{
   text-align: left;
   transition-duration: 3s;
 }
+/* Resume Responcive Design */
+@media screen and (max-width:1015px){
+
+
+  .wrapper2 {
+	display: none;
+}
+.col-lg-7 {
+	width: 100%;
+	text-align: ;
+}
+.progress.skill-bar {
+	margin-top: 1rem;
+}
+
+}
+
+@media screen and (max-width:992px){
+
+
+.col-lg-7 {
+
+	text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
