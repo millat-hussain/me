@@ -1420,6 +1420,7 @@ hr {
 #resume .skills-section .single-skill .skill-progress .progress-bar {
   border-bottom-left-radius: 1px;
   border-top-left-radius: 1px;
+  width: 500px;
 }
 
 @media (max-width: 767.98px) {
